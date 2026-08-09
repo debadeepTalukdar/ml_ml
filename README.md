@@ -46,6 +46,13 @@ End-to-end machine learning projects built with Python, scikit-learn, and pandas
 * **Dataset:** 50,000+ Combat Records & Base Stats Dataset
 * **Models Used:** Random Forest Classifier
 * **Result:** **~94% test accuracy** (Feature importance showed Speed_Diff as primary factor)
+### 8. Autonomous Drone Failure Predictor & Sensor Fusion
+* **Goal:** Filter noisy 6-DOF IMU sensor telemetry and predict real-time drone instability/failure.
+* **Dataset:** 10,000+ Simulated Telemetry Records (Pitch, Roll, Altitude, Angular Velocity).
+* **Techniques Used:** Digital Signal Processing (1D Kalman Filter), Feature Engineering (Rolling Variance & Kinematic Velocity), XGBoost Classifier.
+* **Result:** **~97% test accuracy** in predicting impending drone failure states prior to crash.
+
+### 2. Pokémon Battle Outcome Predictor
 ---
 
 ## Tech Stack
