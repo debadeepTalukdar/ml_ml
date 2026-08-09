@@ -41,7 +41,11 @@ End-to-end machine learning projects built with Python, scikit-learn, and pandas
 - **Dataset:** UCI Wine Quality
 - **Models Used:** Random Forest, XGBoost
 - **Result:** ~88% accuracy
-
+### 7. Pokémon Battle Outcome Predictor
+* **Goal:** Predict winner of battles based on Pokémon stat differentials
+* **Dataset:** 50,000+ Combat Records & Base Stats Dataset
+* **Models Used:** Random Forest Classifier
+* **Result:** **~94% test accuracy** (Feature importance showed Speed_Diff as primary factor)
 ---
 
 ## Tech Stack
