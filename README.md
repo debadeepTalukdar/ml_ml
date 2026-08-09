@@ -52,7 +52,7 @@ End-to-end machine learning projects built with Python, scikit-learn, and pandas
 * **Techniques Used:** Digital Signal Processing (1D Kalman Filter), Feature Engineering (Rolling Variance & Kinematic Velocity), XGBoost Classifier.
 * **Result:** **~97% test accuracy** in predicting impending drone failure states prior to crash.
 
-### 2. Pokémon Battle Outcome Predictor
+
 ---
 
 ## Tech Stack
