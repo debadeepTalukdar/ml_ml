@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pokemon-predictor-deployment
+  labels:
+    app: pokemon-predictor
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pokemon-predictor
+  template:
+    metadata:
+      labels:
+        app: pokemon-predictor
+    spec:
+      containers:
+      - name: pokemon-predictor
+        image: debadeeptalukdar/pokemon-predictor:latest
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pokemon-predictor-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8000
+  selector:
+    app: pokemon-predictor
